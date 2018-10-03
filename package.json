@@ -1,6 +1,6 @@
 {
   "name": "raylyanway_brain_games",
-  "version": "1.0.2",
+  "version": "1.2.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -29,5 +29,8 @@
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
