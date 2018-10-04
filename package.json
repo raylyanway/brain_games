@@ -2,7 +2,7 @@
   "name": "raylyanway_brain_games",
   "version": "1.2.4",
   "description": "micro fun games",
-  "keywords":[
+  "keywords": [
     "micro",
     "fun",
     "games"
@@ -32,7 +32,11 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0"
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.9"

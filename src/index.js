@@ -21,21 +21,22 @@ export default () => {
         Doctor: "Nine."
       `);
       break;
-      case 'woman':
-        console.log(`
+    case 'woman':
+      console.log(`
           What is the difference between a snowman and a snowwoman?
                                   -
                               Snowballs.
         `);
-        break;
-      case 'wife':
-        console.log(`
+      break;
+    case 'wife':
+      console.log(`
           My wife suffers from a drinking problem.
                              -
           Oh is she an alcoholic?
                              -
           No, I am, but she's the one who suffers.
         `);
-        break;
+      break;
+    default: break;
   }
-}
+};
