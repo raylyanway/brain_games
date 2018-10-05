@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import numbers from '../even';
+import evenGame from '../even';
 
-console.log('Welcome to the Brain Games!');
-numbers();
+evenGame();
