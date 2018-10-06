@@ -8,3 +8,6 @@
 
 ## Calc game
 [![demo](https://asciinema.org/a/113463.png)](https://asciinema.org/a/50CEYI7nRAYRVN3C0gxPqaMoO?autoplay=1)
+
+## Gcd game
+[![demo](https://asciinema.org/a/113463.png)](https://asciinema.org/a/D9O42PwOqfZnvKLaarN7MzYGl?autoplay=1)
