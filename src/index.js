@@ -12,13 +12,13 @@ const attemptsCount = 3;
 export default (getQuestion, description) => {
   const userName = greeting(description);
   for (let i = 0; i < attemptsCount; i += 1) {
-    const question = getQuestion();
-    console.log(`Question: ${question.question}`);
+    const [rightAnswer, question] = getQuestion();
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
-    if (answer === question.rightAnswer) {
+    if (answer === rightAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${question.rightAnswer}'.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
     }

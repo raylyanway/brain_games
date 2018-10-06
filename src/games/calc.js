@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils';
-import startGame from '../index';
+import startGame from '..';
 
 const description = 'What is the result of the expression?';
 const getQuestion = () => {
@@ -22,7 +22,7 @@ const getQuestion = () => {
       question = `${a} * ${b}`;
       break;
   }
-  return { rightAnswer: String(rightAnswer), question };
+  return [String(rightAnswer), question];
 };
 
 export default () => startGame(getQuestion, description);
