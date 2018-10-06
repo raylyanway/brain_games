@@ -11,3 +11,6 @@
 
 ## Gcd game
 [![demo](https://asciinema.org/a/113463.png)](https://asciinema.org/a/D9O42PwOqfZnvKLaarN7MzYGl?autoplay=1)
+
+## Progression game
+[![demo](https://asciinema.org/a/113463.png)](https://asciinema.org/a/f6H6FfXuzQKvwxGR9nPBV5CKF?autoplay=1)
