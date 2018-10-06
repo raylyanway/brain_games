@@ -14,4 +14,4 @@ publish:
 	npm publish
 
 lint:
-	npx eslint --fix src
+	npx eslint .
