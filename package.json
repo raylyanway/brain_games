@@ -1,6 +1,6 @@
 {
   "name": "raylyanway_brain_games",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "micro fun games",
   "keywords": [
     "micro",
@@ -13,7 +13,7 @@
     "brain-calc": "dist/bin/brain-calc.js",
     "brain-gcd": "dist/bin/brain-gcd.js",
     "brain-progression": "dist/bin/brain-progression.js",
-    "brain-progression": "dist/bin/brain-prime.js"
+    "brain-prime": "dist/bin/brain-prime.js"
   },
   "files": [
     "dist"
