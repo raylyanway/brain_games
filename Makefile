@@ -1,8 +1,8 @@
 install:
 	npm install
 
-start:
-	npx babel-node -- src/bin/brain-games.js
+talk:
+	npx babel-node -- src/bin/brain-talk.js
 
 even:
 	npx babel-node -- src/bin/brain-even.js

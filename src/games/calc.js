@@ -1,23 +1,28 @@
-import { randomNumber, start } from '../game-flow';
+import getRandomNumber from '../utils';
+import startGame from '../index';
 
-const message = 'What is the result of the expression?';
-const attemptsCount = 3;
+const description = 'What is the result of the expression?';
 const getQuestion = () => {
-  const a = randomNumber();
-  const b = randomNumber();
-  const sign = randomNumber();
-  let rightAnswer = a * b;
-  let question = `${a} * ${b}`;
-  if (sign < 33) {
-    rightAnswer = a + b;
-    question = `${a} + ${b}`;
-  } else if (sign > 66) {
-    rightAnswer = a - b;
-    question = `${a} - ${b}`;
+  let rightAnswer;
+  let question;
+  const a = getRandomNumber(1, 10);
+  const b = getRandomNumber(1, 10);
+  const randomNumber = getRandomNumber(1, 10);
+  switch (randomNumber) {
+    case randomNumber > 6:
+      rightAnswer = a - b;
+      question = `${a} - ${b}`;
+      break;
+    case randomNumber < 3:
+      rightAnswer = a + b;
+      question = `${a} + ${b}`;
+      break;
+    default:
+      rightAnswer = a * b;
+      question = `${a} * ${b}`;
+      break;
   }
   return { rightAnswer: String(rightAnswer), question };
 };
 
-export default () => {
-  start(attemptsCount, getQuestion, message);
-};
+export default () => startGame(getQuestion, description);

@@ -1,16 +1,16 @@
 import readlineSync from 'readline-sync';
 
-export const isEven = number => number % 2 === 0;
-export const randomNumber = () => Math.floor(Math.random() * 100);
-const greeting = (message) => {
+const greeting = (description) => {
   console.log('Welcome to the Brain Games!');
-  console.log(message);
+  console.log(description);
   const name = readlineSync.question('May I have your name?');
   console.log(`Hello, ${name}!`);
   return name;
 };
-export const start = (attemptsCount, getQuestion, message) => {
-  const userName = greeting(message);
+const attemptsCount = 3;
+
+export default (getQuestion, description) => {
+  const userName = greeting(description);
   for (let i = 0; i < attemptsCount; i += 1) {
     const question = getQuestion();
     console.log(`Question: ${question.question}`);

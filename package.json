@@ -1,6 +1,6 @@
 {
   "name": "raylyanway_brain_games",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "micro fun games",
   "keywords": [
     "micro",
@@ -8,7 +8,7 @@
     "games"
   ],
   "bin": {
-    "brain-games": "dist/bin/brain-games.js",
+    "brain-talk": "dist/bin/brain-talk.js",
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js"
   },
