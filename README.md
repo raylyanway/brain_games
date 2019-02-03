@@ -11,4 +11,4 @@
   * calculator: `calc`
   * the greatest common factor: `gcd`
   * arithmetic progression: `progression`
-  * is it a simple number?: `prime`
+  * is it a simple number ?: `prime`
