@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raylyanway/project-lvl1-s352.git"
+    "url": "git+https://github.com/raylyanway/brain_games.git"
   },
   "author": "raylyanway",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/raylyanway/project-lvl1-s352/issues"
+    "url": "https://github.com/raylyanway/brain_games/issues"
   },
-  "homepage": "https://github.com/raylyanway/project-lvl1-s352#readme",
+  "homepage": "https://github.com/raylyanway/brain_games#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
