@@ -4,13 +4,14 @@
 
 Console application containing a set of mini-games with a common engine.
 
-## install
+## Install
 
 `npm install -g raylyanway_brain_games`
 
-## list of games:
-  * parity check: `even`
-  * calculator: `calc`
-  * the greatest common factor: `gcd`
-  * arithmetic progression: `progression`
-  * is it a simple number ?: `prime`
+## Type the name of the game in the terminal from list below and click enter:
+  * parity check: `brain-even`
+  * calculator: `brain-calc`
+  * the greatest common factor: `brain-gcd`
+  * arithmetic progression: `brain-progression`
+  * is it a simple number ?: `brain-prime`
+  * small talk: `brain-talk`

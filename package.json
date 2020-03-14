@@ -1,6 +1,6 @@
 {
   "name": "raylyanway_brain_games",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "micro fun games",
   "keywords": [
     "micro",
@@ -34,14 +34,14 @@
   },
   "homepage": "https://github.com/raylyanway/brain_games#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.0",
-    "@babel/core": "^7.8.0",
-    "@babel/node": "^7.8.0",
-    "@babel/preset-env": "^7.8.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.20.0"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
