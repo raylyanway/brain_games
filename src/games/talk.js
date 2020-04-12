@@ -8,7 +8,7 @@ export default () => {
   if (readlineSync.keyInYN('Are you human?')) {
     console.log('Good choice ))');
   } else {
-    console.log('Hey, I\'m too ))');
+    console.log("Hey, I'm too ))");
   }
 
   const jokes = ['doctor', 'woman', 'wife'];
@@ -38,6 +38,7 @@ export default () => {
           No, I am, but she's the one who suffers.
         `);
       break;
-    default: break;
+    default:
+      break;
   }
 };
