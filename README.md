@@ -16,4 +16,4 @@ Console application containing a set of mini-games with a common engine.
 - the greatest common factor: `brain-gcd`
 - arithmetic progression: `brain-progression`
 - is it a simple number ?: `brain-prime`
-- small talk: `brain-talk` 
+- small talk: `brain-talk`
